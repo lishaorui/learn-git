@@ -1,18 +1,10 @@
-echo "# learn-git" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/lishaorui/learn-git.git
-git push -u origin master
-…or push an existing repository from the command line
-git remote add origin https://github.com/lishaorui/learn-git.git
-git push -u origin master
+#Learning Git
 
-##git
+## git
 
 ### 常用命令
 
-####新建代码库
+#### 新建代码库
 
 ```sh
 # 在当前目录新建一个git仓库
@@ -43,7 +35,7 @@ git log --name-status
 
 ## Github
 
-###添加ssh key
+### 添加ssh key
 
 使用sshkey来访问github，可以一劳永逸，不用每次都输入用户名密码，具体步骤也很简单。也可以参考github官方的[操作说明](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)。
 
