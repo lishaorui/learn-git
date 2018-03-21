@@ -12,22 +12,32 @@ git push -u origin master
 
 ### 常用命令
 
-1. 新建代码库
+####新建代码库
 
-   ```sh
-   # 在当前目录新建一个git仓库
-   git init
+```sh
+# 在当前目录新建一个git仓库
+git init
 
-   # 新建一个目录，并将其初始化为git代码库
-   git init [project_name]
+# 新建一个目录，并将其初始化为git代码库
+git init [project_name]
 
-   # 下载一个项目
-   git clone [project_url]
-   ```
+# 下载一个项目
+git clone [project_url]
+```
 
-   ​
 
-2. ​
+
+#### 查看提交记录
+
+```shell
+# 查看记录
+git log
+
+# 查看记录，以文件状态显示
+git log --name-status
+```
+
+
 
 
 
